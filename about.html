@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .headings {
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        background-image: linear-gradient(
+          to left bottom,
+          #14079b,
+          #4004a0,
+          #5c03a4,
+          #7404a8,
+          #8908ac,
+          #6e33bc,
+          #4b48c7,
+          #0057cd,
+          #0066c0,
+          #006ba0,
+          #006a7c,
+          #05665f
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .navbar {
+        background-image: linear-gradient(
+          to left bottom,
+          #14079b,
+          #4004a0,
+          #5c03a4,
+          #7404a8,
+          #8908ac,
+          #6e33bc,
+          #4b48c7,
+          #0057cd,
+          #0066c0,
+          #006ba0,
+          #006a7c,
+          #05665f
+        );
+      }
+      .button {
+        background: linear-gradient(
+          to right top,
+          #ebd919,
+          #cdde00,
+          #a9e300,
+          #7ae800,
+          #1beb12
+        );
+      }
+      .abt {
+        background-image: linear-gradient(
+          to top,
+          #070537,
+          #033166,
+          #005c95,
+          #008bc2,
+          #12bceb
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">HelloMani!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+
+            <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li> doesnt need here-->
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-info my-2 my-sm-0 text-light"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="abt">About us section</h1>
+          <p>Wanna know more about us? Have a look..!</p>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container-fluid">
+        <h1 class="text-center text-capitalize pt-4 headings">about us</h1>
+        <hr class="w-25 mx-auto pt-4" />
+
+        <div class="row mb-4">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="image1.jpg" class="img-fluid" />
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <h1>Best free photos you can find here!</h1>
+            <hr />
+            <p>
+              We're working on this site regularly to provide you 1000+ free
+              images daily. You can view and download any of the images from our
+              site for free. Our main moto is to reach your expectation of
+              getting awesome and unique pictures. You can also join our group
+              by clicking 'join us' button and can upload images as well. To
+              give feedback or for any other query you can contact us any time.
+              We will be always available at your service. :)
+            </p>
+            <button class="btn bg-info text-dark button">know more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="text-center bg-dark text-white">@copyright hellomani.2020</p>
+    </footer>
+  </body>
+</html>
